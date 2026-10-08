@@ -1,128 +1,136 @@
 
-# E-Commerce Customer & Revenue Intelligence System
+# 📊 E-Commerce Customer & Revenue Intelligence
 
-## Project Overview
+An end-to-end **E-Commerce Data Analytics project** built using Python to analyze customer behavior, sales performance, revenue trends, and business insights.
 
-An end-to-end E-Commerce analytics project built using Python, NumPy, Pandas, Matplotlib and Seaborn.
+The project includes **data analysis, visualization, and an interactive Streamlit dashboard** to help understand important business KPIs and customer patterns.
 
-The project analyzes:
-- Revenue and profitability
-- Customer behavior
-- Product performance
-- City performance
-- Discount impact
-- Revenue outliers
-- RFM customer segmentation
-- At-risk customers
-- Monthly business trends
+## 🚀 Project Overview
 
-## Tech Stack
+This project analyzes e-commerce sales data to answer important business questions such as:
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Streamlit
+- What is the total revenue generated?
+- Which products/categories perform best?
+- Which customers contribute the most revenue?
+- What are the sales and revenue trends?
+- Which areas need business improvement?
+- What customer and sales patterns can be identified from the data?
 
-## Advanced Features
+## 🛠️ Technologies Used
 
-### 1. NumPy Analytics
-- Vectorized calculations
-- Boolean indexing
-- `np.where`
-- `np.select`
-- Percentiles
-- IQR outlier detection
-- Standard deviation
-- Correlation
-- `np.argsort`
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Streamlit**
+- **CSV Dataset**
 
-### 2. RFM Customer Segmentation
-
-Customers are evaluated using:
-
-- Recency: How recently the customer purchased
-- Frequency: How often the customer purchased
-- Monetary: How much revenue the customer generated
-
-Segments:
-- Champions
-- Loyal Customers
-- Potential Customers
-- At Risk
-- Lost Customers
-- Occasional Customers
-
-### 3. Business Analysis
-
-The project identifies:
-- Highest revenue categories
-- Most profitable categories
-- Top cities
-- Most profitable products
-- High-revenue / low-margin products
-- Discount impact on profitability
-- Revenue outliers
-- At-risk customers
-
-## Folder Structure
+## 📁 Project Structure
 
 ```text
-Ecommerce_Analytics/
+E-Commerce-Customer-Revenue-Intelligence/
 │
 ├── data/
 │   └── ecommerce_sales.csv
 │
-├── outputs/
-│   └── generated automatically
-│
 ├── analysis.py
 ├── dashboard.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## How to Run
+## 📊 Key Features
 
-### Step 1: Install libraries
+### 🔹 Data Analysis
+- Data cleaning and preprocessing
+- Missing-value handling
+- Data type analysis
+- Customer analysis
+- Product and category analysis
+- Revenue analysis
+- Statistical analysis
+
+### 🔹 Data Visualization
+- Revenue trends
+- Sales performance
+- Customer insights
+- Category-level analysis
+- Business-focused charts using Matplotlib and Seaborn
+
+### 🔹 Interactive Dashboard
+
+The project includes a **Streamlit dashboard** with interactive visualizations and important business KPIs.
+
+The dashboard helps users explore the dataset and understand business performance more easily.
+
+## 📈 Business KPIs
+
+The dashboard focuses on important metrics such as:
+
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Order Value
+- Product/Category Performance
+- Customer Revenue Contribution
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
 
 ```bash
-python -m pip install -r requirements.txt
+git clone https://github.com/arshad1997khan-ui/E-Commerce-Customer-Revenue-Intelligence.git
 ```
 
-### Step 2: Run analytics
+### 2. Open the project folder
 
 ```bash
-python analysis.py
+cd E-Commerce-Customer-Revenue-Intelligence
 ```
 
-Charts and CSV reports will be created inside `outputs/`.
+### 3. Install required libraries
 
-### Step 3: Run dashboard
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit dashboard
 
 ```bash
 streamlit run dashboard.py
 ```
 
-## Interview Explanation
+The dashboard will open in your browser.
 
-> I developed an end-to-end E-Commerce Customer and Revenue Intelligence System using Python, NumPy, Pandas, Matplotlib and Seaborn. I performed data cleaning, feature engineering, statistical analysis and IQR-based outlier detection using NumPy. I also implemented RFM-based customer segmentation to identify high-value, loyal and at-risk customers. Finally, I analyzed category, product, city and discount-level profitability and built a Streamlit dashboard for business reporting.
+## 🎯 Skills Demonstrated
 
-## Business Value
+This project demonstrates practical knowledge of:
 
-This project helps a business understand:
-- Where revenue is coming from
-- Which categories and products are profitable
-- Which customers are valuable
-- Which customers may churn
-- Whether discounts are affecting profit
-- Which transactions require investigation
+- Python Programming
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Pandas & NumPy
+- Data Visualization
+- Business Analytics
+- KPI Analysis
+- Customer Analytics
+- Revenue Analysis
+- Streamlit Dashboard Development
 
-## Resume Project Title
+## 💡 Project Outcome
 
-**E-Commerce Customer & Revenue Intelligence System**
+This project helped me understand how raw e-commerce data can be transformed into **meaningful business insights** using Python and data visualization techniques.
 
-## Resume Bullet
+It also demonstrates my ability to work with real-world datasets and present analytical results through an interactive dashboard.
 
-Developed an end-to-end E-Commerce analytics system using Python, NumPy, Pandas, Matplotlib and Seaborn to analyze revenue, profitability and customer behavior; implemented IQR outlier detection, RFM segmentation, discount-impact analysis and at-risk customer identification with a Streamlit dashboard.
+## 👨‍💻 Author
+
+**Arshad Khan**
+
+Aspiring Data Analyst | Python | SQL | Pandas | NumPy | Data Visualization
+
+---
+
+⭐ If you find this project useful, feel free to star the repository.
